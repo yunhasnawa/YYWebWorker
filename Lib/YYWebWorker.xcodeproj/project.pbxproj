@@ -14,9 +14,9 @@
 		5C208A03187810E100B57AF5 /* libYYWebWorker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2089EB187810E100B57AF5 /* libYYWebWorker.a */; };
 		5C208A09187810E100B57AF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C208A07187810E100B57AF5 /* InfoPlist.strings */; };
 		5C208A0B187810E100B57AF5 /* YYWebWorkerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C208A0A187810E100B57AF5 /* YYWebWorkerTests.m */; };
-		5C208A1D1878115C00B57AF5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C208A171878115C00B57AF5 /* Reachability.m */; };
-		5C208A1E1878115C00B57AF5 /* ReachabilityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C208A191878115C00B57AF5 /* ReachabilityAppDelegate.m */; };
-		5C208A1F1878115C00B57AF5 /* YYWebWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C208A1B1878115C00B57AF5 /* YYWebWorker.m */; };
+		5C208A3718781A5F00B57AF5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C208A3118781A5F00B57AF5 /* Reachability.m */; };
+		5C208A3818781A5F00B57AF5 /* ReachabilityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C208A3318781A5F00B57AF5 /* ReachabilityAppDelegate.m */; };
+		5C208A3918781A5F00B57AF5 /* YYWebWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C208A3518781A5F00B57AF5 /* YYWebWorker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,13 +51,13 @@
 		5C208A06187810E100B57AF5 /* YYWebWorkerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YYWebWorkerTests-Info.plist"; sourceTree = "<group>"; };
 		5C208A08187810E100B57AF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5C208A0A187810E100B57AF5 /* YYWebWorkerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYWebWorkerTests.m; sourceTree = "<group>"; };
-		5C208A161878115C00B57AF5 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		5C208A171878115C00B57AF5 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		5C208A181878115C00B57AF5 /* ReachabilityAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachabilityAppDelegate.h; sourceTree = "<group>"; };
-		5C208A191878115C00B57AF5 /* ReachabilityAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachabilityAppDelegate.m; sourceTree = "<group>"; };
-		5C208A1A1878115C00B57AF5 /* YYWebWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWebWorker.h; sourceTree = "<group>"; };
-		5C208A1B1878115C00B57AF5 /* YYWebWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWebWorker.m; sourceTree = "<group>"; };
-		5C208A1C1878115C00B57AF5 /* YYWebWorkerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWebWorkerDelegate.h; sourceTree = "<group>"; };
+		5C208A3018781A5F00B57AF5 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		5C208A3118781A5F00B57AF5 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		5C208A3218781A5F00B57AF5 /* ReachabilityAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachabilityAppDelegate.h; sourceTree = "<group>"; };
+		5C208A3318781A5F00B57AF5 /* ReachabilityAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachabilityAppDelegate.m; sourceTree = "<group>"; };
+		5C208A3418781A5F00B57AF5 /* YYWebWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YYWebWorker.h; path = ../../Example/YYWebWorkerExample/YYWebWorker/YYWebWorker.h; sourceTree = "<group>"; };
+		5C208A3518781A5F00B57AF5 /* YYWebWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YYWebWorker.m; path = ../../Example/YYWebWorkerExample/YYWebWorker/YYWebWorker.m; sourceTree = "<group>"; };
+		5C208A3618781A5F00B57AF5 /* YYWebWorkerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YYWebWorkerDelegate.h; path = ../../Example/YYWebWorkerExample/YYWebWorker/YYWebWorkerDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,10 @@
 		5C2089F0187810E100B57AF5 /* YYWebWorker */ = {
 			isa = PBXGroup;
 			children = (
-				5C208A141878115C00B57AF5 /* YYWebWorker */,
+				5C208A2F18781A5F00B57AF5 /* Reachability */,
+				5C208A3418781A5F00B57AF5 /* YYWebWorker.h */,
+				5C208A3518781A5F00B57AF5 /* YYWebWorker.m */,
+				5C208A3618781A5F00B57AF5 /* YYWebWorkerDelegate.h */,
 				5C2089F1187810E100B57AF5 /* Supporting Files */,
 			);
 			path = YYWebWorker;
@@ -147,27 +150,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5C208A141878115C00B57AF5 /* YYWebWorker */ = {
+		5C208A2F18781A5F00B57AF5 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				5C208A151878115C00B57AF5 /* Reachability */,
-				5C208A1A1878115C00B57AF5 /* YYWebWorker.h */,
-				5C208A1B1878115C00B57AF5 /* YYWebWorker.m */,
-				5C208A1C1878115C00B57AF5 /* YYWebWorkerDelegate.h */,
+				5C208A3018781A5F00B57AF5 /* Reachability.h */,
+				5C208A3118781A5F00B57AF5 /* Reachability.m */,
+				5C208A3218781A5F00B57AF5 /* ReachabilityAppDelegate.h */,
+				5C208A3318781A5F00B57AF5 /* ReachabilityAppDelegate.m */,
 			);
-			name = YYWebWorker;
-			path = ../../YYWebWorkerExample/YYWebWorkerExample/YYWebWorker;
-			sourceTree = "<group>";
-		};
-		5C208A151878115C00B57AF5 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				5C208A161878115C00B57AF5 /* Reachability.h */,
-				5C208A171878115C00B57AF5 /* Reachability.m */,
-				5C208A181878115C00B57AF5 /* ReachabilityAppDelegate.h */,
-				5C208A191878115C00B57AF5 /* ReachabilityAppDelegate.m */,
-			);
-			path = Reachability;
+			name = Reachability;
+			path = ../../Example/YYWebWorkerExample/YYWebWorker/Reachability;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,9 +243,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C208A1D1878115C00B57AF5 /* Reachability.m in Sources */,
-				5C208A1E1878115C00B57AF5 /* ReachabilityAppDelegate.m in Sources */,
-				5C208A1F1878115C00B57AF5 /* YYWebWorker.m in Sources */,
+				5C208A3718781A5F00B57AF5 /* Reachability.m in Sources */,
+				5C208A3818781A5F00B57AF5 /* ReachabilityAppDelegate.m in Sources */,
+				5C208A3918781A5F00B57AF5 /* YYWebWorker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

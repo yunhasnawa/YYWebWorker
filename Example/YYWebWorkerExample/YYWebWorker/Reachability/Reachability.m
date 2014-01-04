@@ -87,6 +87,8 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
     
     NSObject* infoObj = (__bridge NSObject*) info;
     
+    NSLog(@"%@", infoObj);
+    
 	NSCAssert([infoObj isKindOfClass: [Reachability class]], @"info was wrong class in ReachabilityCallback");
 
 	Reachability* noteObject = (__bridge Reachability*) info;
