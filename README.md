@@ -56,3 +56,5 @@ And then implement the delegate method in your definition file:
     }
 
 That's it! Hope it help you in your project.. :)
+
+p.s. Sorry at this time, it only for JSON.
